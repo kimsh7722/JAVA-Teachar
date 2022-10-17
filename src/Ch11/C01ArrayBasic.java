@@ -7,12 +7,12 @@ public class C01ArrayBasic {
 	public static void main(String[] args) {
 		// 길이가 5인 int형 1차원 배열의 생성
 		Scanner sc = new Scanner(System.in);
-		   int[] ar1 = new int[5];
-		   ar1[0]=sc.nextInt();
-		   ar1[1]=sc.nextInt();
-		   ar1[2]=sc.nextInt();
-		   ar1[3]=sc.nextInt();
-		   ar1[4]=sc.nextInt();
+		int[] ar1 = new int[5];
+		ar1[0]=sc.nextInt();
+		ar1[1]=sc.nextInt();
+		ar1[2]=sc.nextInt();
+		ar1[3]=sc.nextInt();
+		ar1[4]=sc.nextInt();
 		   
 		   //기존
 		   for(int i=0;i<ar1.length;i++) {
