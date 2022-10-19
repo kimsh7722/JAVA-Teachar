@@ -1,0 +1,21 @@
+UPCASTING
+상위클래스 참조변수 = 하위객체
+자동형변환
+상속관계의 하위객체 연결
+하위클래스의 확장된 멤버 접근 불가능
+->downcasting
+
+DOWNCASTING
+하위클래스 참조변수 = 상위객체
+강제형변환
+
+instanceof
+객체 타입을 확인하는 연산자
+형변환 가능 여부를 확인
+true/false 리턴
+객체 instanceof 클래스
+
+
+
+
+
