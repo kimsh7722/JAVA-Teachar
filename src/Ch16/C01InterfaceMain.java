@@ -9,6 +9,7 @@ interface C01Remocon
 	void turnOn();
 	void turnOff();
 	void setVolumn(int vol);
+
 }
 class C01TV implements C01Remocon
 {
@@ -77,6 +78,7 @@ public class C01InterfaceMain {
 			TurnOff(radio);
 			SetVol(tv,7);
 			SetVol(radio,11);
+			
 	}
 
 	
