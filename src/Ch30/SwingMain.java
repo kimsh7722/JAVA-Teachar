@@ -158,6 +158,8 @@ class C01GUI extends JFrame implements ActionListener,KeyListener
 			}
 			
 		}
+		
+		//음악재생 버튼 
 		if(e.getSource()==btn4) {
 			System.out.println("btn4 클릭");
 			player.play();

@@ -79,6 +79,7 @@ class C05GUI extends JFrame implements ActionListener,KeyListener
 			List<String> list = crowling.Crowling();
 			
 			
+			area.setText("");
 			int i=1;
 			for(String filename : list) {
 				
@@ -87,6 +88,7 @@ class C05GUI extends JFrame implements ActionListener,KeyListener
 				i++;
 			}
 			txt1.setText("https://");
+			
 			
 			
 		}
