@@ -23,9 +23,7 @@ public class Rifle extends Gun{
 
 	@Override
 	void reload() {
-		System.out.println("재장전!");
-		
-		
+		System.out.println("재장전!");	
 	}
 
 }

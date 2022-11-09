@@ -2,7 +2,7 @@ package Ch34ClassDiagram;
 
 public class Factory extends Building implements ICanFly {
 
-	private FactoryAddOn extendOn;
+	public FactoryAddOn extendOn;
 	
 	void ExtendFactory() {
 		extendOn = new FactoryAddOn();

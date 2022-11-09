@@ -1,22 +1,17 @@
 package Ch34ClassDiagram;
 
-public class FactoryAddOn extends Building{
+public class ShotGun extends Gun{
 
 	@Override
-	void Construct() {
+	void fire(Unit unit) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	void UnderAttack(Unit unit) {
+	void reload() {
 		// TODO Auto-generated method stub
 		
 	}
-	
-	// 시즈모드
-	//	 
-	//
-	
 
 }

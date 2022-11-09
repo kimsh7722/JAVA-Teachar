@@ -4,6 +4,7 @@ public abstract class Unit {
 	public int HP;
 	public String name;
 	public boolean isalive;
+	
 	abstract void move();
 
 	 
