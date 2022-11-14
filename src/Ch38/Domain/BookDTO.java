@@ -1,6 +1,6 @@
 package Ch38.Domain;
 
-public class BookDTO {
+public class BookDTO extends DTO{
 	private int bookCode;
 	private String bookName;
 	private boolean isLend;
@@ -34,6 +34,7 @@ public class BookDTO {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
+	
 	public boolean isLend() {
 		return isLend;
 	}
