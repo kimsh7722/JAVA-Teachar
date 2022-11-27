@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Scanner;
 
 import Ch38.Controller.FrontController;
-import Ch38.Domain.BookDTO;
-import Ch38.Domain.LendDTO;
-import Ch38.Domain.MemberDTO;
+import Ch38.Domain_DTO.BookDTO;
+import Ch38.Domain_DTO.LendDTO;
+import Ch38.Domain_DTO.MemberDTO;
 
 public class TUIView {
 	// 멤버

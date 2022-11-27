@@ -3,7 +3,7 @@ package Ch38.Controller;
 import java.util.HashMap;
 import java.util.Map;
 
-import Ch38.Domain.DTO;
+import Ch38.Domain_DTO.DTO;
 
 public class FrontController {
 

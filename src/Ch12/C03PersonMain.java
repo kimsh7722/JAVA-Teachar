@@ -6,7 +6,6 @@ class C03Person{
 	String age;
 	String addr;
 }
-
 public class C03PersonMain {
 	public static void main(String[] args) {
 		

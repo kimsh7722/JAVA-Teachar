@@ -3,9 +3,9 @@ package Ch38.Tests;
 import java.util.ArrayList;
 
 import Ch38.Controller.FrontController;
-import Ch38.Domain.BookDAO;
-import Ch38.Domain.BookDTO;
-import Ch38.Domain.MemberDTO;
+import Ch38.Domain_DAO.BookDAO;
+import Ch38.Domain_DTO.BookDTO;
+import Ch38.Domain_DTO.MemberDTO;
 
 public class UnitTest {
 

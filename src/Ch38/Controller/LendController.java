@@ -1,7 +1,7 @@
 package Ch38.Controller;
 
-import Ch38.Domain.DTO;
-import Ch38.Domain.LendDTO;
+import Ch38.Domain_DTO.DTO;
+import Ch38.Domain_DTO.LendDTO;
 import Ch38.Service.LendService;
 
 public class LendController implements SubController {

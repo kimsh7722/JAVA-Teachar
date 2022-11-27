@@ -1,7 +1,7 @@
 package Ch38.Controller;
 
-import Ch38.Domain.DTO;
-import Ch38.Domain.MemberDTO;
+import Ch38.Domain_DTO.DTO;
+import Ch38.Domain_DTO.MemberDTO;
 import Ch38.Service.AuthService;
 
 public class AuthController implements SubController {

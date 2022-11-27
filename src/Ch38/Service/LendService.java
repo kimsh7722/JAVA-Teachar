@@ -4,10 +4,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import Ch38.Domain.BookDAO;
-import Ch38.Domain.BookDTO;
-import Ch38.Domain.LendDAO;
-import Ch38.Domain.LendDTO;
+import Ch38.Domain_DAO.BookDAO;
+import Ch38.Domain_DAO.LendDAO;
+import Ch38.Domain_DTO.BookDTO;
+import Ch38.Domain_DTO.LendDTO;
 
 public class LendService {
 

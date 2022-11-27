@@ -2,9 +2,9 @@ package Ch38.Service;
 
 import java.util.ArrayList;
 
-import Ch38.Domain.BookDAO;
-import Ch38.Domain.BookDTO;
-import Ch38.Domain.MemberDTO;
+import Ch38.Domain_DAO.BookDAO;
+import Ch38.Domain_DTO.BookDTO;
+import Ch38.Domain_DTO.MemberDTO;
 
 public class BookService {
 	
@@ -30,7 +30,7 @@ public class BookService {
 		boolean isRegisterOK=true;
 		
 		//권한 체크(등록가능한지여부)	
-		if(permission>=3) {
+		if(permission>=1) {
 			
 			int result = dao.Insert(dto);
 			if(result>0) {

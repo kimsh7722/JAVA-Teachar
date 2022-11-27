@@ -1,7 +1,7 @@
 package Ch38.Controller;
 
-import Ch38.Domain.BookDTO;
-import Ch38.Domain.DTO;
+import Ch38.Domain_DTO.BookDTO;
+import Ch38.Domain_DTO.DTO;
 import Ch38.Service.BookService;
 
 public class BookController implements SubController {

@@ -24,9 +24,7 @@ public class C03BreakContinue {
 //		System.out.println("SUM = " + sum);
 		
 		
-		
-		
-		
+	
 		//2 continue
 		// 1부터 10까지의 수중에 3의 배수를 제외한 합 출력
 		

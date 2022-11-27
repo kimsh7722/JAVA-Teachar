@@ -1,6 +1,6 @@
 package Ch38.Controller;
 
-import Ch38.Domain.DTO;
+import Ch38.Domain_DTO.DTO;
 
 public class MemberController implements SubController{
 

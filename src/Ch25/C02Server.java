@@ -14,8 +14,12 @@ public class C02Server {
 		InputStream in = null;
 		DataInputStream out = null;
 		
-		server = new ServerSocket(8989);
+		server = new ServerSocket(6060);
 		System.out.println("Server Started...");
+		
+		client = server.accept();
+		System.out.println(client.getInetAddress()+" 에서 접속합니다.");
+		
 		DataInputStream Din = new DataInputStream(client.getInputStream());
 		DataOutputStream Dout = new DataOutputStream(client.getOutputStream());
 		

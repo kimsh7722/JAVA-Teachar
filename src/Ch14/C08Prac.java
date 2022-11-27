@@ -34,8 +34,7 @@ class Regular extends Employee	//정규직
 	Regular(String name,String age,String addr,int salary){
 		super(name,age,addr);
 		this.salary=salary;
-	}
-	
+	}	
 	@Override
 	void show() {
 		System.out.printf("정규근로자 :%s %s %s %d\n", name,age,addr,salary);
